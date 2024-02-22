@@ -1,0 +1,415 @@
+Buffs: {
+	BoneBoltDebuff: {
+		DisplayName: Bone Bolt Debuff
+		Description: Mods.WolfsAdditions.Buffs.BoneBoltDebuff.Description
+	}
+
+	ArchitectsMiningGear: {
+		Description: Mods.WolfsAdditions.Buffs.ArchitectsMiningGear.Description
+		DisplayName: Architects Mining Gear
+	}
+
+	DeepChillDebuff: {
+		DisplayName: Deep Chill Debuff
+		Description: Mods.WolfsAdditions.Buffs.DeepChillDebuff.Description
+	}
+
+	FrostedDebuff: {
+		DisplayName: Frosted Debuff
+		Description: Mods.WolfsAdditions.Buffs.FrostedDebuff.Description
+	}
+
+	KindleSoul: {
+		DisplayName: Kindle Soul
+		Description: Mods.WolfsAdditions.Buffs.KindleSoul.Description
+	}
+
+	KindleSoulCD: {
+		DisplayName: Kindle Soul C D
+		Description: Mods.WolfsAdditions.Buffs.KindleSoulCD.Description
+	}
+
+	LacerationsDebuff: {
+		DisplayName: Lacerations Debuff
+		Description: Mods.WolfsAdditions.Buffs.LacerationsDebuff.Description
+	}
+
+	MarkedDebuff: {
+		DisplayName: Marked Debuff
+		Description: Mods.WolfsAdditions.Buffs.MarkedDebuff.Description
+	}
+
+	WolfImmune: {
+		DisplayName: Wolf Immune
+		Description: Mods.WolfsAdditions.Buffs.WolfImmune.Description
+	}
+}
+
+Items: {
+	HIX: {
+		DisplayName: H I X
+		Tooltip: ""
+	}
+
+	HIY: {
+		DisplayName: H I Y
+		Tooltip: ""
+	}
+
+	HOX: {
+		DisplayName: H O X
+		Tooltip: ""
+	}
+
+	HOY: {
+		DisplayName: H O Y
+		Tooltip: ""
+	}
+
+	ArchitectsMiningGear: {
+		DisplayName: Architect's Mining Gear
+		Tooltip:
+			'''
+			Tile and wall placement speed greatly increased 
+			Mining speed greatly increased 
+			Automatically paints placed objects 
+			Provides light when worn 
+			+1 range
+			'''
+	}
+
+	AuxiliaryRemote: {
+		DisplayName: Auxiliary Remote
+		Tooltip: Increases max turrets by +1
+	}
+
+	FuriaWings: {
+		DisplayName: Furia's Wings
+		Tooltip: The Pyre protects
+	}
+
+	HolyCrossNecklace: {
+		DisplayName: Holy Cross Necklace
+		Tooltip:
+			'''
+			Defence greatly increases
+			approaching critical health
+			Increases length of invincibility
+			after taking damage
+			Provides light when equipped
+			'''
+	}
+
+	HolyGrail: {
+		DisplayName: Holy Grail
+		Tooltip:
+			'''
+			Defence greatly increases
+			approaching critical health
+			Provides light when equipped
+			Tis but a scratch!
+			'''
+	}
+
+	HordeCharm: {
+		DisplayName: Charm of the Horde
+		Tooltip:
+			'''
+			Doubles max minions
+			-50% minion damage
+			'''
+	}
+
+	TurretOverclocker: {
+		DisplayName: Turret Overclocker
+		Tooltip: Increases turret fire rate
+	}
+
+	BoneBolt: {
+		DisplayName: Bone Bolt
+		Tooltip: ""
+	}
+
+	Rebar: {
+		DisplayName: Rebar
+		Tooltip: ""
+	}
+
+	AmasBody: {
+		DisplayName: Ama's Shirt
+		Tooltip: ""
+	}
+
+	AmasHead: {
+		DisplayName: Ama's Head
+		Tooltip: ""
+	}
+
+	AmasLegs: {
+		DisplayName: Ama's Pants
+		Tooltip: ""
+	}
+
+	FossilLeggings: {
+		DisplayName: Fossil Leggings
+		Tooltip: 5% increased movement speed
+	}
+
+	FossilMask: {
+		DisplayName: Fossil Mask
+		Tooltip: 5% increased ranged damage
+	}
+
+	FossilPlatemail: {
+		DisplayName: Fossil Platemail
+		Tooltip: 5% increased ranged damage
+	}
+
+	FuriaCoat: {
+		DisplayName: Furia's Coat
+		Tooltip:
+			'''
+			15% increased magic damage
+			15% critical strike chance
+			'''
+	}
+
+	FuriaHair: {
+		DisplayName: Furia's Hair
+		Tooltip:
+			'''
+			Reduces mana usage by 15%
+			10% increased magic damage
+			10% critical strike chance
+			'''
+	}
+
+	FuriaLeggings: {
+		DisplayName: Furia's Leggings
+		Tooltip:
+			'''
+			15% increased magic damage
+			15% and movement speed
+			'''
+	}
+
+	GhillieHood: {
+		DisplayName: Ghillie Hood
+		Tooltip: ""
+	}
+
+	GhillieJacket: {
+		DisplayName: Ghillie Jacket
+		Tooltip: 5% increased ranged damage
+	}
+
+	GhilliePants: {
+		DisplayName: Ghillie Pants
+		Tooltip: 5% increased movement speed
+	}
+
+	MoltenHelm: {
+		DisplayName: Molten Helm
+		Tooltip: ""
+	}
+
+	MoltenJacket: {
+		DisplayName: Molten Jacket
+		Tooltip: 15% increased ranged damage
+	}
+
+	MoltenLeggings: {
+		DisplayName: Molten Leggings
+		Tooltip: 10% increased movement speed
+	}
+
+	WolfsChestplate: {
+		DisplayName: Wolfs Chestplate
+		Tooltip:
+			'''
+			Increases maximum mana by 40
+			Enemies are more likely to target you
+			'''
+	}
+
+	WolfsHelmet: {
+		DisplayName: Wolfs Helmet
+		Tooltip:
+			'''
+			Increases maximum mana by 20"
+			Enemies are more likely to target you
+			'''
+	}
+
+	WolfsLeggings: {
+		DisplayName: Wolfs Leggings
+		Tooltip:
+			'''
+			Increases maximum mana by 40
+			Enemies are more likely to target you
+			'''
+	}
+
+	AncientArtifact: {
+		DisplayName: Ancient Artifact
+		Tooltip: ""
+	}
+
+	BalancedFragment: {
+		DisplayName: Balanced Fragment
+		Tooltip: ""
+	}
+
+	BlankCircuits: {
+		DisplayName: Blank Circuits
+		Tooltip: ""
+	}
+
+	BasicTurret: {
+		DisplayName: Basic Turret
+		Tooltip: Sentry going up!
+	}
+
+	Turret2: {
+		DisplayName: Simple Turret
+		Tooltip: More gun
+	}
+
+	AirWand: {
+		DisplayName: Wand of Air
+		Tooltip: ""
+	}
+
+	FireWand: {
+		DisplayName: Wand of Fire
+		Tooltip: ""
+	}
+
+	FuriaSword: {
+		DisplayName: Pyre Blade
+		Tooltip: Right click to kindle an allies soul
+	}
+
+	HealWand: {
+		DisplayName: Wand of Healing
+		Tooltip: ""
+	}
+
+	IceWand: {
+		DisplayName: Wand of Ice
+		Tooltip: ""
+	}
+
+	MahogSporeBurst: {
+		DisplayName: Mahogany Spore Burster
+		Tooltip: ""
+	}
+
+	StoneWand: {
+		DisplayName: Wand of Stone
+		Tooltip: ""
+	}
+
+	BladeOfCthulhu: {
+		DisplayName: Blade Of Cthulhu
+		Tooltip: ""
+	}
+
+	ChlorophyteSniper: {
+		DisplayName: Chlorophyte Sniper
+		Tooltip: ""
+	}
+
+	DaedelusGunbow: {
+		DisplayName: Daedelus Gunbow
+		Tooltip: ""
+	}
+
+	Dawnbreaker: {
+		DisplayName: Dawnbreaker
+		Tooltip: Uses Rebar as ammo
+	}
+
+	FossilBoltPuncher: {
+		DisplayName: Fossil Bolt Puncher
+		Tooltip: Uses Bone Bolts as ammo
+	}
+
+	FrostSniper: {
+		DisplayName: Frost Sniper
+		Tooltip: ""
+	}
+
+	LacerationRifle: {
+		DisplayName: Laceration Rifle
+		Tooltip: ""
+	}
+
+	Minigun: {
+		DisplayName: Minigun
+		Tooltip: 66% chance to not consume ammo
+	}
+
+	MoltenSniper: {
+		DisplayName: Molten Sniper
+		Tooltip: ""
+	}
+
+	ScopedRifle: {
+		DisplayName: Scoped Rifle
+		Tooltip: ""
+	}
+
+	ShadowThorn: {
+		DisplayName: Shadow Thorn
+		Tooltip: ""
+	}
+
+	ShroomiteSniper: {
+		DisplayName: Shroomite Sniper
+		Tooltip: ""
+	}
+
+	VortexSniper: {
+		DisplayName: Vortex Sniper
+		Tooltip: Mark targets with <right>
+	}
+
+	WallCharge: {
+		DisplayName: Wall Charge
+		Tooltip: ""
+	}
+
+	SimpleTurret: {
+		DisplayName: Simple Turret
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	AirProjectile.DisplayName: Air
+	BoneBoltProjectile.DisplayName: Bone Bolt
+	DeepChillProjectile.DisplayName: Deep Chill
+	EmberProjectile.DisplayName: Ember
+	EyeBlade.DisplayName: Eye Blade
+	FireProjectile.DisplayName: Fire
+	FuriaProjectile.DisplayName: Furia
+	HealProjectile.DisplayName: Heal
+	IceProjectile.DisplayName: Ice
+	IceShardProj.DisplayName: Ice Shard
+	KindleSoul.DisplayName: Kindle Soul
+	LacerationProjectile.DisplayName: Laceration
+	MahogSpore.DisplayName: Mahog Spore
+	MahogSporeBomb.DisplayName: Mahog Spore Bomb
+	RebarProjectile.DisplayName: Rebar
+	ShadowThornProjectile.DisplayName: Shadow Thorn
+	ShroomProjectile.DisplayName: Shroom
+	ShroomSporeProj.DisplayName: Shroom Spore
+	StoneProjectile.DisplayName: Stone
+	BasicTurretProjectile.DisplayName: Basic Turret
+	SimpleTurretProjectile.DisplayName: Simple Turret
+	VortexMarkProj.DisplayName: Vortex Mark
+	VortexSniperProj.DisplayName: Vortex Sniper
+	WallCharge.DisplayName: Wall Charge
+	SimpleTurretHead.DisplayName: Simple Turret Head
+}

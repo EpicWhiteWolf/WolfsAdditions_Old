@@ -1,0 +1,105 @@
+(Use to be Sniper Extensions)
+
+So far most of what I've added is sniper related i 
+plan to add more to this mod in the future, like for 
+example tank class items, elemental magic weapons
+and healing weapons.
+
+List of Added Items(in progressional order):
+-Magic Items
+	1.Wand of Air(hint: Bottle)
+	2.Wand of Ice(hint: Ice Block)
+	3.Wand of Stone(hint: Stone Block)
+	4.Wand of Fire(hint: Torch)
+	5.Wand of Healing(hint: Healing Potion)(WIP)
+	6.Mahogany Spore Burst(hint: Jungle Spore)(WIP)
+	7a.Furia Set(hint: Solar Fragment)(WIP)
+	7b.Pyre Blade(hint: Solar Fragment)(WIP)
+-Ranged Items
+	1.Scoped Rifle(hint: Iron Bar)
+	2.Ghillie Armor(hint: Living Leaf Wall)
+	3a.Fossil Bolt Puncher(hint: Fossil Ore)
+	3b.Bone Bolts(hint: Fossil Ore)
+	4.Fossil Platemail Armor(hint: Fossil Ore)
+	5a.Shadow Thorn(hint: Demonite Bar)
+	5b.Laceration Rifle(hint: Crimtane Bar)
+	6.Molten Sniper(hint: Hellstone Bar)
+	7.Molten Ranger Armor(hint: Hellstone Bar)
+	8a.Dawnbreaker(hint: Light Shard)
+	8b.Rebar(hint: Iron Bar)
+	9.Deadelus Gunbow(hint: Illegal Gun Parts)
+	10.Frost Sniper(hint: Frost Core)
+	11.Chlorophyte Sniper(hint: Chlorophyte Bar)
+	12.Shroomite Sniper(hint: Shroomite Bar)
+	13.Vortex Sniper(hint: Vortex Fragments)
+	14.Minigun(hint: Hallowed Bars)
+-Engineer Items
+	1.Basic Turret(hint: Musket Ball)
+	2.Auxiliary Remote(hint: Blank Circuits)
+	3.Turret Overclocker(hint: Gold Watch)
+-Melee Items
+	1.Blade of Chuthulu(hint: Eye of Chuthulu)
+-Tank Items
+	1.Holy Grail(hint: Mimic)
+	2.Holy Cross Necklace(hint: Holy Grail)
+	3.Wolf's Armor Set(hint: Balanced Fragment)
+-Summoning Items
+	1.Charm of the Horde(hint: Demonite Bar)
+-Movement Items
+	1.Soul of True Flight(hint: 5%/10% Wyvern drop)
+-Misc Items/Recipies
+	1.Architects Mining Gear(hint: Mining Helmet)
+	2.Arkhalis(hint: Enchanted Sword)
+	3.Sandstorm in a Bottle(hint: Ancient Artifact)
+	4.Ancient Artifact(hint: Fossil Ore)
+	5.Mining Shirt(hint: Silk)
+	6.Mining Pants(hint: Silk)
+	7.Flying Carpet(hint: Silk)
+	8.Slime Staff(hint: Slime Block)
+	9.Frozen Turtle Shell(hint: Frost Core)
+	10.Balanced Fragment(hint: Any Lunar Tower Fragment)
+	11.Blank Circuits(hint: Slime Block)
+
+Please visit the ModContent homepage,
+I'm always open to feedback and constructive criticism!
+
+Special thanks to all the contributors of ExampleMod
+
+This mods contributors: 
+Wolf 
+Naq
+Ama
+
+Ideas for the future:
+-Make "sub classes"
+	1.Melee
+		a.Tank
+			-already possible/add variety
+		b.Defence Support
+			-add accessories and armor that buff nearby players defence passively
+		c.Dps
+			-already possible/add variety
+
+	2.Ranger
+		a.Engineer
+			-add lots of deployable machines and traps (all stationary)
+		b.Damage Support
+			-add accessories and armor that buff nearby players with npc debuffs/player damage buffs
+		c.Dps
+			-already possible/add variety
+
+	3.Mage
+		a.Crowd Control
+			-add new debuffs for more interesting crowd control
+		b.Health Support
+			-already possible but needs a lot more content
+		c.Dps
+			-already possible/add variety
+
+	4.Summoner
+		a.Guardian
+			-add a set of summoning accessories that greatly increase summon damage but only allow 1 summon but increase damage by 8% for every extra minion
+		b.Movement Support
+			-
+		c.Zerg
+			-add a set of summoning accessories that add 2 max minions but reduce summoning damage by 8%

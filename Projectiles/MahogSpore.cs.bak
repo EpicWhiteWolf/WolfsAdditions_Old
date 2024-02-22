@@ -1,0 +1,87 @@
+using System;
+using System.Linq;
+using Microsoft.Xna.Framework;
+using Terraria;
+using Terraria.ID;
+using Terraria.ModLoader;
+
+namespace WolfsAdditions.Projectiles;
+
+internal class MahogSpore : ModProjectile
+{
+	public override void SetStaticDefaults()
+	{
+		ProjectileID.Sets.TrailCacheLength[Projectile.type] = 5;
+		ProjectileID.Sets.TrailingMode[Projectile.type] = 0;
+	}
+
+	public override void SetDefaults()
+	{
+		((Entity)Projectile).width = 12;
+		((Entity)Projectile).height = 12;
+		Projectile.timeLeft = 240;
+		Projectile.friendly = false;
+		Projectile.hostile = false;
+		Projectile.tileCollide = true;
+		Projectile.ignoreWater = false;
+		Projectile.DamageType = DamageClass.Magic;
+		Projectile.aiStyle = 0;
+	}
+
+	public override void AI()
+	{
+		Player nearestPlayer = (from p in Main.player
+			where ((Entity)p).active && !p.dead
+			orderby ((Entity)Projectile).Distance(((Entity)p).Center)
+			select p).FirstOrDefault();
+		Player owner = Main.player[Projectile.owner];
+		Vector2 direction = ((Entity)nearestPlayer).Center - ((Entity)Projectile).Center;
+		if (((Vector2)(direction)).Length() <= 20f && owner.team == nearestPlayer.team && nearestPlayer != owner)
+		{
+			Projectile.Kill();
+		}
+		Projectile.rotation = (float)Math.Atan2(direction.Y, direction.X) + MathHelper.ToRadians(90f);
+		Projectile.rotation = Utils.ToRotation(((Entity)Projectile).velocity) + MathHelper.ToRadians(90f);
+		Projectile projectile = Projectile;
+		((Entity)projectile).velocity = ((Entity)projectile).velocity * 0.95f;
+		Vector2 randVect = default(Vector2);
+		randVect = new Vector2((float)Main.rand.Next(-18, 18), (float)Main.rand.Next(-18, 18));
+		if (Utils.NextBool(Main.rand, 20))
+		{
+			Vector2 trueCenter = default(Vector2);
+			trueCenter = new Vector2(-4f, -4f);
+			int dustnumber = Dust.NewDust(((Entity)Projectile).Center + trueCenter + randVect, 0, 0, Mod.Find<ModDust>("HealDust").Type, 0f, 10f, 0, default(Color), 1f);
+			Main.dust[dustnumber].noGravity = true;
+			Main.dust[dustnumber].velocity = ((Entity)Projectile).velocity * 0.25f;
+		}
+	}
+
+	public override void Kill(int timeLeft)
+	{
+		Player nearestPlayer = (from p in Main.player
+			where ((Entity)p).active && !p.dead
+			orderby ((Entity)Projectile).Distance(((Entity)p).Center)
+			select p).FirstOrDefault();
+		Player owner = Main.player[Projectile.owner];
+		Vector2 direction = ((Entity)nearestPlayer).Center - ((Entity)Projectile).Center;
+		float distanceToPlayer = ((Vector2)(direction)).Length();
+		if (nearestPlayer != owner && distanceToPlayer <= 10f)
+		{
+			nearestPlayer.HealEffect(Projectile.damage, false);
+			nearestPlayer.statLife += Projectile.damage;
+		}
+	}
+
+	public override bool OnTileCollide(Vector2 oldVelocity)
+	{
+		if (((Entity)Projectile).velocity.X != oldVelocity.X)
+		{
+			((Entity)Projectile).velocity.X = 0f - oldVelocity.X;
+		}
+		if (((Entity)Projectile).velocity.Y != oldVelocity.Y)
+		{
+			((Entity)Projectile).velocity.Y = 0f - oldVelocity.Y;
+		}
+		return false;
+	}
+}
